@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu responsivo</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Techno Solutions</h1>
+        <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
+        <menu id="itens">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Help</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h1>Historia da tecnologia</h1>
+
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod illo ullam fugiat asperiores vitae explicabo quam esse, cum, laudantium quibusdam labore dolorum laboriosam alias incidunt molestias cupiditate dolores unde recusandae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, ad nulla eum modi recusandae eius excepturi illo dolore enim, molestiae quo magnam nihil officia eligendi dolorem accusantium soluta animi deleniti. Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores voluptate consectetur corrupti quia laborum, aliquam ad dignissimos architecto nesciunt et quo earum, enim in doloribus excepturi sequi vitae, quam rerum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe odit corporis, veniam dignissimos, voluptas porro quis sit alias non dicta sequi minima provident amet in vero similique recusandae. Soluta, at.
+            </p>
+
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto quibusdam eos reiciendis repudiandae mollitia illum voluptatem et corrupti eveniet laborum odit, alias culpa officia numquam perspiciatis suscipit dolores voluptatum quos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam iure delectus saepe, nesciunt deleniti nostrum, numquam consectetur aut sapiente sunt fuga! Sint voluptate deserunt quae dolor mollitia eius ut adipisci.
+            </p>
+
+            <h2>Areas de TI</h2>
+            <p>Sao varias as areas das tecnologias de informacao mas aqui vamos destacar os seguintes:</p>
+            <ol>
+                <li>Informatica</li>
+                <li>Robotica</li>
+                <li>Programacao</li>
+                <li>Entre outros</li>
+            </ol>
+        </article>
+    </main>
+    <script>
+        function clickMenu(){
+            if(itens.style.display == 'block'){
+                itens.style.display = 'none'
+            }else{
+                itens.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+</html>
